@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --vermilion-50: 6 100% 96%;
+  --vermilion-100: 4 100% 90%;
+  --vermilion-200: 5 100% 80%;
+  --vermilion-300: 7 100% 69%;
+  --vermilion-400: 16 100% 48%;
+  --vermilion-500: 16 100% 43%;
+  --vermilion-600: 15 100% 36%;
+  --vermilion-700: 14 100% 28%;
+  --vermilion-800: 13 100% 20%;
+  --vermilion-900: 9 100% 12%;
+  --vermilion-950: 6 100% 8%;
+}
+
+@theme inline {
+  --color-background: hsl(var(--vermilion-50));
+  --color-foreground: hsl(var(--vermilion-900));
+  --font-sans: 'Poppins', sans-serif;
+  --font-mono: 'Poppins', monospace;
+}
+
+body {
+  background: hsl(var(--vermilion-50));
+  color: hsl(var(--vermilion-900));
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
